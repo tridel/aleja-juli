@@ -1,0 +1,42 @@
+{
+  "es": {
+    "title": "Alejandra y Julián - Sitio",
+    "location": "Bogotá, Colombia",
+    "wedding": "BODA",
+    "our": "NUESTRA",
+    "celebrate": "VEN A CELEBRAR<br>CON NOSOTROS",
+    "saturday": "Sábado.",
+    "november": "Noviembre",
+    "address": "Cra 13 No. 29 -13<br>Piso 3",
+    "map": "Como llegar",
+    "dress_code": "Vestimenta",
+    "semi_formal": "Semi - Formal",
+    "dance": "Ponte tu mejor pinta y la mejor actitud para acompañarnos en la pista de baile!",
+    "ideas": "Algunas ideas:",
+    "confirm_attendance": "CONFIRMAR<br>ASISTENCIA",
+    "confirm": "Confirmar",
+    "no_children": "EVENTO SIN NIÑOS",
+    "gifts": "Regalos",
+    "gift_text": "Tu compañía este día es nuestro regalo más valioso"
+  },
+  "en": {
+    "title": "Alejandra and Julián - Site",
+    "location": "Bogota, Colombia",
+    "wedding": "WEDDING",
+    "our": "OUR",
+    "celebrate": "COME CELEBRATE<br>WITH US",
+    "saturday": "Saturday",
+    "november": "November",
+    "address": "Cra 13 No. 29 -13<br>3rd Floor",
+    "map": "How to get there",
+    "dress_code": "Dress Code",
+    "semi_formal": "Semi - Formal",
+    "dance": "Wear your best look and the best attitude to join us on the dance floor!",
+    "ideas": "Some ideas:",
+    "confirm_attendance": "CONFIRM<br>ATTENDANCE",
+    "confirm": "Confirm",
+    "no_children": "NO CHILDREN ALLOWED",
+    "gifts": "Gifts",
+    "gift_text": "Your company on this day is our most precious gift"
+  }
+}
