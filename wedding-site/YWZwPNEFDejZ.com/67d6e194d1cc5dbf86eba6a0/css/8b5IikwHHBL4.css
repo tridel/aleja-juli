@@ -2072,7 +2072,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .text-block-3 {
-    letter-spacing: 5vw;
+    letter-spacing: 15px;
     text-indent: 0;
     font-family: Playfair Display, sans-serif;
     font-size: 300%;
