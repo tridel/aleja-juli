@@ -1968,12 +1968,6 @@ textarea.w-input, textarea.w-select {
   line-height: 100%;
 }
 
-.text-block-3 {
-  font-family: Playfair Display, sans-serif;
-  font-size: 800%;
-  font-weight: 700;
-  line-height: 100%;
-}
 
 .text-block-4, .text-block-5 {
   letter-spacing: 1vw;
@@ -2083,6 +2077,7 @@ textarea.w-input, textarea.w-select {
     font-size: 300%;
     font-weight: 700;
     line-height: 100%;
+    padding-left: 2.5%;
   }
 
   .text-block-4 {
