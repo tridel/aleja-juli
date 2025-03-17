@@ -1952,11 +1952,12 @@ textarea.w-input, textarea.w-select {
   font-size: 400%;
   font-weight: 400;
   line-height: 100%;
+  margin-top: 10%;
 }
 
 
 .text-block-2 {
-  padding-top: 15%;
+  padding-top: 7%;
 }
 
 .bold-text {
