@@ -1912,11 +1912,12 @@ textarea.w-input, textarea.w-select {
 
 .image-2 {
   width: 100%;
-  max-width: none;
+  max-width: 440px;
 }
 
 .image-3 {
   width: 100%;
+  max-width: 440px;
   position: absolute;
   inset: 0% 0% auto;
 }
@@ -2081,7 +2082,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .text-block-4 {
-    letter-spacing: 1vh;
+    letter-spacing: 12px;
     padding-top: 5%;
     padding-right: 12%;
     font-family: Eyesome Script, Verdana, sans-serif;
@@ -2329,7 +2330,7 @@ textarea.w-input, textarea.w-select {
     position: static;
   }
   .w-layout-vflex.flex-block {
-    max-width: 479px;
+    max-width: 440px;
     margin: 0 auto;
   }
   
