@@ -2336,11 +2336,11 @@ textarea.w-input, textarea.w-select {
 
   .add-calendar-btn{
     letter-spacing: 2px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-radius: 20px;
     font-family: Playfair Display, sans-serif;
     margin-top: 5%;
-    padding: 8px 10px;
+    padding: 8px 20px;
     font-size: 12px;
     width: auto;
     position: static;
