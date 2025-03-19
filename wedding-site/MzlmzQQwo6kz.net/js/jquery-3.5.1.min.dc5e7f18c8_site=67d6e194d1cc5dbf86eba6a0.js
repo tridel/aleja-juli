@@ -63,3 +63,42 @@ function displayNames() {
 document.addEventListener('DOMContentLoaded', function() {
   displayNames();
 });
+
+
+ document.getElementById('addCalendarBtn').addEventListener('click', function() {
+      // Detalles del evento
+      const eventTitle = "Boda de Aleja y Juli";
+      const eventLocation = "Bogotá, Colombia";
+      // Obtener el enlace actual de la página
+      const currentPageLink = window.location.href;
+      const eventDescription = "Invitacion: " + currentPageLink;
+      
+      // Para un evento de día completo en iCalendar se usa el formato de fecha sin tiempo.
+      // La fecha de inicio es el 29 de noviembre de 2025 y la fecha de fin es el día siguiente.
+      const startDate = "20251129";  // 29 de noviembre de 2025
+      const endDate = "20251130";    // 30 de noviembre de 2025
+
+      // Crear contenido en formato iCalendar
+      let icsContent = "";
+      icsContent += "BEGIN:VCALENDAR\n";
+      icsContent += "VERSION:2.0\n";
+      icsContent += "BEGIN:VEVENT\n";
+      icsContent += "DTSTART;VALUE=DATE:" + startDate + "\n";
+      icsContent += "DTEND;VALUE=DATE:" + endDate + "\n";
+      icsContent += "SUMMARY:" + eventTitle + "\n";
+      icsContent += "DESCRIPTION:" + eventDescription + "\n";
+      icsContent += "LOCATION:" + eventLocation + "\n";
+      icsContent += "END:VEVENT\n";
+      icsContent += "END:VCALENDAR";
+
+      // Crear un blob y generar un enlace de descarga
+      const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = "evento.ics";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    });
