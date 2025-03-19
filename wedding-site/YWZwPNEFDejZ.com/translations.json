@@ -17,6 +17,7 @@
     "confirm": "Confirmar",
     "no_children": "EVENTO SIN NIÑOS",
     "gifts": "Regalos",
+    "calendar": "Añadir al Calendario",
     "gift_text": "Tu compañía este día es nuestro regalo más valioso"
   },
   "en": {
@@ -37,6 +38,7 @@
     "confirm": "Confirm",
     "no_children": "NO CHILDREN ALLOWED",
     "gifts": "Gifts",
+    "calendar": "Add to Calendar",
     "gift_text": "Your company on this day is our most precious gift"
   }
 }
