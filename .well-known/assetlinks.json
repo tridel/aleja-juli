@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "Copa Airlines",
+      "package_name": "com.mttnow.android.copa.production",
+      "sha256_cert_fingerprints": [
+        "CA:EE:22:81:56:0C:2F:78:C1:67:3D:1A:9E:4D:96:D6:43:32:BD:F9:9D:B4:26:01:00:23:BA:0F:FC:7D:DA:98"
+      ]
+    }
+  }
+]
